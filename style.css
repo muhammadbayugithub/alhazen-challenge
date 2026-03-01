@@ -97,6 +97,11 @@ body {
         padding: 0 20px;
     }
 
+    .border-green {
+        border-left: 3px solid #b3f5a6;
+        border-right: 3px solid #b3f5a6;
+    }
+
     h2 {
         font-size: 24px;
         margin: 0;
