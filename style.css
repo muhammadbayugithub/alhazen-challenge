@@ -16,6 +16,15 @@ body {
     background-color: #f5f5f5;
 }
 
+.green-bg {
+    background-color: #f5fff5;
+}
+
+.border-green {
+    border-left: 3px solid #9bff99;
+    border-right: 3px solid #9bff99;
+}
+
 .google-sans-flex {
     font-family: "Google Sans", sans-serif;
 }
