@@ -17,12 +17,12 @@ body {
 }
 
 .green-bg {
-    background-color: #fafffa;
+    background-color: #f5fff5;
 }
 
 .border-green {
-    border-left: 3px solid #9ef59d;
-    border-right: 3px solid #9ef59d;
+    border-left: 3.6px solid #b3f5a6;
+    border-right: 3.6px solid #b3f5a6;
 }
 
 .google-sans-flex {
