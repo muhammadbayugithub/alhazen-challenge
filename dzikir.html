@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Alhazen Challenge: Multi-page Ramadhan Website</title>
+        <link rel="stylesheet" href="./src/css/style.css" />
+        <link rel="stylesheet" href="./src/css/dzikir.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+            rel="stylesheet"
+        />
+        <script type="module" src="./src/js/dzikir.js"></script>
+    </head>
+    <body class="grey">
+        <div class="navspace"></div>
+        <header>
+            <div class="navbar">
+                <a href="index.html"><h3 class="logo google-sans-flex">Website Ramadhan</h3></a>
+                <div class="navlink-container">
+                    <a href="dzikir.html" class="navlink google-sans-flex">Dzikir Counter</a>
+                    <!-- <a class="navlink google-sans-flex">Page2</a>
+                    <a class="navlink google-sans-flex">Page3</a> -->
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="white">
+                <h2 class="google-sans-flex">Dzikir Counter</h2>
+                <div class="inner-card inner-card-row green-bg border-green">
+                    <div class="container-setandreset">
+                        <div class="container-setter">
+                            <p class="container-setter-heading google-sans-flex">Set target:</p>
+                            <div class="setter">
+                                <div class="btn-setter btn-setter-decrease">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-chevron-left-icon lucide-chevron-left icon"
+                                    >
+                                        <path d="m15 18-6-6 6-6" />
+                                    </svg>
+                                </div>
+                                <p class="google-sans-flex setnum">33</p>
+                                <div class="btn-setter btn-setter-increase">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-chevron-right-icon lucide-chevron-right icon"
+                                    >
+                                        <path d="m9 18 6-6-6-6" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-reset">
+                            <p class="google-sans-flex text-align-center label-reset">Reset counter</p>
+                        </div>
+                    </div>
+                    <p class="google-sans-flex text-align-center countnum">0</p>
+                    <div class="btn-dzikir google-sans-flex">+Dzikir</div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>
